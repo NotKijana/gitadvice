@@ -1,0 +1,29 @@
+// // Small devices (landscape phones, 576px and up)
+// @media (min-width: 576px) { @content };
+
+// // Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) { @content };
+
+// // Large devices (desktops, 992px and up)
+// @media (min-width: 992px) { @content };
+
+// // Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) { @content };
+
+@mixin responsive($device) {
+    @if $device == desktop {
+      @media (min-width: 70em) { @content ; }
+   }
+    @else if $device == laptop {
+      @media (min-width: 64em) { @content ; }
+   }
+     @else if $device == tablet {
+      @media (min-width: 50em) { @content ; }
+   }
+    @else if $device == smallTablet {
+      @media (min-width: 37.5em)  { @content ; }
+   }
+   @else if $device == mobileonly {
+      @media (max-width: 37.49em)  { @content ; }
+   }
+}
