@@ -1,6 +1,6 @@
 # Frontend Mentor - Advice generator app
 
-![Design preview and challenge link for the Advice generator app coding challenge](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db)
+[Design preview and challenge link for the Advice generator app coding challenge](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db)
 
 ## The challenge
 
