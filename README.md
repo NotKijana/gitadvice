@@ -2,7 +2,6 @@
 
 ![Design preview and challenge link for the Advice generator app coding challenge](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db)
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 ## The challenge
 
 My challenge was to build out this advice generator app using the [Advice Slip API](https://api.adviceslip.com) and get it looking as close to the design as possible.
