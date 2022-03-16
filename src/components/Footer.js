@@ -11,7 +11,3 @@ const Footer = () => {
 }
 
 export default Footer;
-
-// git remote add origin https://github.com/NotKijana/gitadvice.git
-// git branch -M main
-// git push -u origin main
