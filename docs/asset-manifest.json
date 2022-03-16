@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/gitadvice/static/css/main.324f1df6.css",
-    "main.js": "/gitadvice/static/js/main.6f448695.js",
+    "main.css": "/gitadvice/static/css/main.11cd483e.css",
+    "main.js": "/gitadvice/static/js/main.2aaebe2c.js",
     "index.html": "/gitadvice/index.html",
     "static/media/icon-dice.svg": "/gitadvice/static/media/icon-dice.08691e4c24c11b5ba564e06b1f6bcbf3.svg",
+    "static/media/icon-search.svg": "/gitadvice/static/media/icon-search.631b9b74445bb9bcc72afe6ecd4e934b.svg",
     "static/media/pattern-divider-desktop.svg": "/gitadvice/static/media/pattern-divider-desktop.ed9685263f6b47d21c8848f7d8bdd10e.svg",
-    "main.324f1df6.css.map": "/gitadvice/static/css/main.324f1df6.css.map",
-    "main.6f448695.js.map": "/gitadvice/static/js/main.6f448695.js.map"
+    "main.11cd483e.css.map": "/gitadvice/static/css/main.11cd483e.css.map",
+    "main.2aaebe2c.js.map": "/gitadvice/static/js/main.2aaebe2c.js.map"
   },
   "entrypoints": [
-    "static/css/main.324f1df6.css",
-    "static/js/main.6f448695.js"
+    "static/css/main.11cd483e.css",
+    "static/js/main.2aaebe2c.js"
   ]
 }
