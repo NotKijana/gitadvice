@@ -1,0 +1,35 @@
+#searchForm {
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid $neon-green;
+    width: 7.5rem;
+    justify-content: space-between;
+}
+.search {
+    color: $primary-cyan;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    width: 5rem;
+    padding-left: 0.5rem;
+    &::placeholder {color: rgba($primary-cyan, 0.5)}
+    &:focus {
+        outline: none;
+    }
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    height: 2rem;
+    cursor: pointer;
+    &:hover {
+        filter: brightness(90%);
+    }
+}
