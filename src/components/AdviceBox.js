@@ -1,11 +1,10 @@
 import { useState, useEffect } from 'react';
-import RefreshBtn from "./RefreshBtn";
+import Dice from '../assets/icon-dice.svg';
+import SearchIcon from '../assets/icon-search.svg';
 import Divider from "../assets/pattern-divider-desktop.svg";
-import Advice from "./Advice";
-import SearchAdvice from './SearchAdvice';
 const axios = require('axios');
 
-const Box = () => {
+const AdviceBox = () => {
   const [advice, setAdvice] = useState('');
   const [adviceId, setAdviceId] = useState('');
 
@@ -40,16 +39,30 @@ const Box = () => {
 
   useEffect(() => {
     getAdvice();
-  }, [])
+  })
 
   return (
     <div className='box'>
-      <Advice advice={advice} adviceId={adviceId} />
+      <form  autocomplete="off" id='searchForm' onSubmit={e => searchAdvice(e)}>
+        <input className='search' placeholder='1-224'
+        type="number" min='1' max='224' name="search" id="search" />
+        <button className='button' type='submit' >
+            <img src={ SearchIcon } alt="Search Icon" className='button icon' />
+        </button>
+      </form>
+
+      <div className='advice'>
+        <p className="headerText">ADVICE #{ adviceId }</p>
+        <h1 className="bodyText">"{ advice }"</h1>
+      </div>
+
       <img className='divider' src={Divider} alt="Divider" />
-      <RefreshBtn getAdvice={getAdvice} />
-      <SearchAdvice searchAdvice={searchAdvice} />
+
+      <button className='refresh' onClick={() => getAdvice()}>
+        <img src={Dice} alt='Dice Icon' />  
+      </button>
     </div>
   )
 }
 
-export default Box;
+export default AdviceBox;

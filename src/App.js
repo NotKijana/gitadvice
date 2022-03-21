@@ -1,11 +1,11 @@
 import './styles/App.scss';
-import Box from './components/Box';
+import AdviceBox from './components/AdviceBox';
 import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <Box />
+      <AdviceBox />
       <Footer />
     </div>
   );
