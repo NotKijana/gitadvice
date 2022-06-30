@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
-import Dice from '../assets/icon-dice.svg';
-import SearchIcon from '../assets/icon-search.svg';
-import Divider from "../assets/pattern-divider-desktop.svg";
+import Dice from '../../assets/icon-dice.svg';
+import SearchIcon from '../../assets/icon-search.svg';
+import Divider from "../../assets/pattern-divider-desktop.svg";
 const axios = require('axios');
 
 const AdviceBox = () => {
@@ -39,16 +39,22 @@ const AdviceBox = () => {
 
   useEffect(() => {
     getAdvice();
-  })
+  }, [])
 
   return (
     <div className='box'>
       <form  autocomplete="off" id='searchForm' onSubmit={e => searchAdvice(e)}>
-        <input className='search' placeholder='1-224'
-        type="number" min='1' max='224' name="search" id="search" />
+        
+        <input className='search' 
+        placeholder='1-224'
+        type="number" min='1' max='224' 
+        name="search" id="search" 
+        />
+
         <button className='button' type='submit' >
             <img src={ SearchIcon } alt="Search Icon" className='button icon' />
         </button>
+
       </form>
 
       <div className='advice'>

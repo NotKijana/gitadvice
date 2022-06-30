@@ -1,4 +1,6 @@
 .box {
+    display: flex;
+    flex-direction: column;
     max-width: 100%;
     width: 54rem;
     border-radius: 15px;
@@ -11,6 +13,10 @@
     
     background: $dark-gray-blue;
     box-shadow: 30px 50px 80px rgba(0, 0, 0, 0.100202);
+
+    @include responsive(mobileonly) {
+        max-width: 90%;
+    }
 }
 
 .divider {

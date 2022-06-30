@@ -15,6 +15,11 @@ Users can:
 - Generate a new piece of advice by clicking the dice icon
 - Search for advice based off the api's total
 
+v1.1.4 notes: 
+- Logo updated
+- Fixed search bar functionality errors
+- Additional styles added
+
 Thank you for visiting!
 Best,
 [Kijana](https://www.kijana.io)

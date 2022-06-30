@@ -9,13 +9,13 @@ body {
     text-align: center;
 }
 .headerText {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: $neon-green;
     letter-spacing: 0.4rem;
     line-height: 1.8rem;
 
     @include responsive(smallTablet) {
-        font-size: 1.1rem;
+        font-size: 1.3rem;
     }
 }
 .bodyText {
